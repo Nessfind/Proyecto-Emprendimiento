@@ -1,3 +1,10 @@
 .nav-item:hover .nav-link:hover {
     color: #ee5241; /* Cambia el color del texto al pasar el mouse */
 }
+.body-content {
+    word-wrap: break-word; /* Permite que las palabras largas se dividan */
+    overflow-wrap: break-word; /* Asegura que el texto no desborde */
+    max-width: 100%; /* Limita el ancho máximo al tamaño de la pantalla */
+    padding: 15px; /* Agrega un poco de espacio alrededor del texto */
+    margin-top: 70px; /* Ajusta el margen superior para evitar que el texto quede detrás del header */
+}
