@@ -1,0 +1,46 @@
+.nav-item:hover .nav-link:hover {
+    color: #ee5241; /* Cambia el color del texto al pasar el mouse */
+}
+.body-content {
+    word-wrap: break-word; /* Permite que las palabras largas se dividan */
+    overflow-wrap: break-word; /* Asegura que el texto no desborde */
+    max-width: 100%; /* Limita el ancho máximo al tamaño de la pantalla */
+    padding: 15px; /* Agrega un poco de espacio alrededor del texto */
+    margin-top: 70px; /* Ajusta el margen superior para evitar que el texto quede detrás del header */
+}
+
+.content {
+    width: 40%;
+    margin: 0 auto;
+}
+canvas {
+    max-width: 100%;
+}
+.col .collage{
+    width: 60%; /* Ajusta el ancho al contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    object-fit: contain; /* Asegura que la imagen no se recorte ni se distorsione */
+    display: block; /* Elimina el espacio extra debajo de la imagen */
+}
+
+.textcol {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 10px; /* Agrega espacio superior para colocarlo más abajo */
+    padding: 10px; /* Agrega espacio interno alrededor del texto */
+    font-size: 1.2rem; /* Ajusta el tamaño del texto */
+    line-height: 1.5; /* Mejora la legibilidad del texto */
+    color: #333; /* Cambia el color del texto (opcional) */
+    justify-content: center;
+}
+
+.col h2{
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 100px; /* Agrega espacio superior para colocarlo más abajo */
+}
+
+.carousel {
+    background-color: transparent; /* Elimina el color de fondo */
+    padding: 20px; /* Agrega espacio interno para que el contenido no quede pegado al borde */
+    border-radius: 10px; /* Bordes redondeados para un diseño más suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil alrededor del carrusel */
+}
