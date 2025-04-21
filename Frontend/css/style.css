@@ -8,7 +8,9 @@
     padding: 15px; /* Agrega un poco de espacio alrededor del texto */
     margin-top: 70px; /* Ajusta el margen superior para evitar que el texto quede detrás del header */
 }
-
+.nav-item a{
+    font-size: 1.4rem;
+}
 .content {
     width: 40%;
     margin: 0 auto;
@@ -39,8 +41,75 @@ canvas {
 }
 
 .carousel {
-    background-color: transparent; /* Elimina el color de fondo */
+    background-color: white; /* Elimina el color de fondo */
     padding: 20px; /* Agrega espacio interno para que el contenido no quede pegado al borde */
     border-radius: 10px; /* Bordes redondeados para un diseño más suave */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil alrededor del carrusel */
+}
+.logo{
+    width: 50px; /* Ajusta el ancho del logo */
+    height: auto; /* Mantiene la proporción original del logo */
+    display: block; /* Elimina el espacio extra debajo de la imagen */
+    margin: 0 auto; /* Centra el logo horizontalmente */
+}
+.titulo{
+
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 10px; /* Agrega espacio superior para colocarlo más abajo */
+    line-height: 1.5; /* Mejora la legibilidad del texto */
+    justify-content: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.2); /* Fondo negro semitransparente */
+    border-radius: 50%; /* Hace que los botones sean redondos */
+    width: 40px; /* Ajusta el tamaño del botón */
+    height: 40px;
+}
+
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+    color: white; /* Cambia el color de las flechas */
+    font-size: 20px; /* Ajusta el tamaño de las flechas */
+}
+.carousel-control-prev,
+.carousel-control-next {
+    transform: translateY(-0%); /* Centra los botones verticalmente */
+}
+
+.carousel-inner {
+    min-height: 600px; /* Ajusta este valor según la altura deseada */
+}
+
+.carousel-item {
+    display: flex; /* Asegura que el contenido esté centrado */
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    min-height: 400px; /* Ajusta este valor según la altura deseada */
+}
+
+body{
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
+                url('../img/fondo.jpg') no-repeat center center; /* Imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el carrusel */
+    padding: 20px; /* Espacio interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+#red_apoyo{
+    background-color: white;
+}
+
+canvas{
+    background-color: white; /* Cambia el color de fondo del canvas */
+}
+
+#formulario, #titulo_formulario {
+    background-color: white; /* Cambia el color de fondo del formulario */
+    margin-left: 20px; /* Agrega un pequeño espacio a la izquierda */
+    padding: 20px; /* Espacio interno para el contenido del formulario */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
