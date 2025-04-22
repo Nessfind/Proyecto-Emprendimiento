@@ -113,3 +113,48 @@ canvas{
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
+/* aplica para el carrusel hoja 2, agrege animacion*/
+#msj {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 1.5rem; /* Aumenta el tamaño de la fuente */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+    color: #333; /* Cambia el color del texto a un gris oscuro */
+    padding: 15px; /* Agrega espacio interno alrededor del texto */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil para destacar */
+    margin-top: 20px; /* Agrega un margen superior */
+    display: inline-block; /* Ajusta el tamaño del fondo al contenido */
+    animation: fade-in 1.5s ease-in-out; /* Aplica la animación de entrada */
+}
+
+/* Animación de entrada suave */
+@keyframes fade-in {
+    from {
+        opacity: 0; /* Comienza invisible */
+        transform: translateY(-20px); /* Desplazamiento inicial hacia arriba */
+    }
+    to {
+        opacity: 1; /* Termina completamente visible */
+        transform: translateY(0); /* Posición final */
+    }
+}
+/* Fin de la animación de entrada suave */
+.noticias{
+    background-color: white; /* Cambia el color de fondo del contenedor de noticias */
+    padding: 20px; /* Espacio interno para el contenido */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin-top: 20px; /* Agrega un margen superior */
+}
+.noticias .card-img-top {
+    width: 80%; /* Ajusta el ancho de la imagen al 80% del contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    object-fit: cover; /* Asegura que la imagen no se deforme */
+    border-radius: 0; /* Elimina los bordes redondeados de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+}
+.noticias .card-body {
+    text-align: justify; /* Justifica el texto para que quede alineado a ambos lados */
+    padding: 10px; /* Agrega un poco de espacio interno alrededor del texto */
+}

@@ -12,11 +12,15 @@ document.getElementById('formulario').addEventListener('submit', async function 
 
     try {
         // Envía los datos al servidor usando fetch
+        // creo la constante response para almacenar la respuesta del servidor
         const response = await fetch('http://127.0.0.1:5000/evaluar', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
+            // Cuerpo de la solicitud con los datos del formulario
+            // Enviando los valores de las preguntas como un objeto JSON
+            // ejemplo: { "pregunta1": true, "pregunta2": false, ... }
             body: JSON.stringify({
                 "pregunta1": pregunta1,
                 "pregunta2": pregunta2,
