@@ -158,3 +158,29 @@ canvas{
     text-align: justify; /* Justifica el texto para que quede alineado a ambos lados */
     padding: 10px; /* Agrega un poco de espacio interno alrededor del texto */
 }
+
+.conceptos{
+    background-color: white; /* Cambia el color de fondo del contenedor de conceptos */
+    padding: 20px; /* Espacio interno para el contenido */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin-top: 20px; /* Agrega un margen superior */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.conceptos-list li{
+    list-style: none; /* Elimina el estilo predeterminado de la lista */
+    position: relative;
+    padding-left: 25px; /* Espacio para la estrella */
+}
+.conceptos-list li::before {
+    content: '\f061'; /* Código Unicode de la estrella en Font Awesome */
+    font-family: 'Font Awesome 5 Free'; /* Asegúrate de que Font Awesome esté cargado */
+    font-weight: 900; /* Aplica el peso necesario para las estrellas sólidas */
+    color: #7bff07; /* Color amarillo */
+    position: absolute;
+    left: 0;
+    top: 0;
+    top: 50%; /* Posiciona la flecha en el centro vertical */
+    transform: translateY(-50%); /* Ajusta la posición para centrarla completamente */
+}
