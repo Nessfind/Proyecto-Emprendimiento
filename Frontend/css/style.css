@@ -184,3 +184,15 @@ canvas{
     top: 50%; /* Posiciona la flecha en el centro vertical */
     transform: translateY(-50%); /* Ajusta la posición para centrarla completamente */
 }
+/* grafica*/
+.card-text small.text-body-secondary {
+    font-weight: bold; /* Negrita */
+    background-color: #d9f8fd; /* Fondo verde claro */
+    padding: 5px 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+.card-body{
+    max-width: 1300px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
