@@ -80,7 +80,8 @@ document.getElementById('formulario').addEventListener('submit', async function 
         // Muestra un mensaje de error si algo falla
         document.getElementById('resultado').innerHTML = `
             <div class="alert alert-danger">
-                Ocurrió un error: ${error.message}
+                Ocurrió un error: al parecer el servidor no está disponible.
+                <br>Por favor, verifica que el servidor esté en ejecución y vuelve a intentarlo.
             </div>
         `;
     }
